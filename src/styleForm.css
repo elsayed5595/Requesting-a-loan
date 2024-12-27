@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+ 
+body{
+    background-color: #01213b ;
+}
+ 
+.flex{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+}
+ .Loaenform{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(51, 0,170);
+    color:"white";
+     padding:20px;
+     border-radius: 20px;
+     box-shadow:0px  10px 10px rgba(0, 0, 0, 0.4);
+     width: 50%;
+ }
+ .Loaenform label{
+    margin-top: 10px;
+ }
+ .Loaenform input,select{
+     width: 100%;
+     height: 30px;
+     border: none;
+ }
+.Loaenform button{
+    margin-top: 20px;
+    border: none;
+    font-size:20px ;
+    width: 25%;
+    padding: 10px;
+    border-radius:5px ;
+    background-color: rgb( 211, 0,127);
+    color: white;
+ }
+ .Loaenform hr{
+    width: 100%;
+ }
+ /* start style Model*/
+ #modal{
+position:absolute;
+background-color: rgba(0, 0, 0, 0.479);
+ width: 100%;
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ }
+
+ #modalcontent{
+background-color: whitesmoke;
+color:green;
+padding:5px;
+width: 60%;
+border-radius: 10px;
+ 
+ }
+
+ /* style btn to disabaledBtn */
+.checkdisbled{
+    background-color: rgb(73, 72, 72) !important;
+}
